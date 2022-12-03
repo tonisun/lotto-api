@@ -16,6 +16,46 @@
   }
 }
 ```
+
+[http://localhost:8080/api/euroJackpotRows/1](http://localhost:8080/api/euroJackpotRows/1)
+```JSON
+{
+  "number1" : 1,
+  "number2" : 2,
+  "number3" : 3,
+  "number4" : 4,
+  "number5" : 5,
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/euroJackpotRows/1"
+    },
+    "euroJackpotRow" : {
+      "href" : "http://localhost:8080/api/euroJackpotRows/1"
+    }
+  }
+}
+```
+
+[http://localhost:8080/api/euroJackpotRows/2118760](http://localhost:8080/api/euroJackpotRows/2118760)
+```JSON
+{
+  "number1" : 46,
+  "number2" : 47,
+  "number3" : 48,
+  "number4" : 49,
+  "number5" : 50,
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/euroJackpotRows/2118760"
+    },
+    "euroJackpotRow" : {
+      "href" : "http://localhost:8080/api/euroJackpotRows/2118760"
+    }
+  }
+}
+```
+
+
 [http://localhost:8080/api/euroJackpotRows](http://localhost:8080/api/euroJackpotRows)
 ```JSON
 {
