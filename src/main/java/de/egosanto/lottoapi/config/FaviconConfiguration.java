@@ -3,7 +3,6 @@ package de.egosanto.lottoapi.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.ClassPathResource;
-import org.springframework.core.io.Resource;
 import org.springframework.web.servlet.handler.SimpleUrlHandlerMapping;
 import org.springframework.web.servlet.resource.ResourceHttpRequestHandler;
 
@@ -19,7 +18,7 @@ public class FaviconConfiguration {
         SimpleUrlHandlerMapping mapping = new SimpleUrlHandlerMapping();
         mapping.setOrder(Integer.MIN_VALUE);
         mapping.setUrlMap(Collections.singletonMap(
-                "/favicon.ico", faviconRequestHandler()));
+                "/static/favicon.ico", faviconRequestHandler()));
         return mapping;
     }
 
@@ -27,10 +26,7 @@ public class FaviconConfiguration {
     protected ResourceHttpRequestHandler faviconRequestHandler() {
         ResourceHttpRequestHandler requestHandler
                 = new ResourceHttpRequestHandler();
-        ClassPathResource classPathResource
-                = new ClassPathResource("de/egosanto/images/");
-        List<Resource> locations = Arrays.asList(classPathResource);
-        requestHandler.setLocations(locations);
+        requestHandler.setLocations(Collections.singletonList(new ClassPathResource("/")));
         return requestHandler;
     }
 }
