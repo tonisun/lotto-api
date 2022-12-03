@@ -1,5 +1,5 @@
 # Lotto API
-![Logo](src/main/resources/images/logo.png)
+![Logo](src/main/resources/static/logo.png)
 
 [(http://localhost:8080/api/](http://localhost:8080/api/)
 
@@ -20,6 +20,7 @@
 [http://localhost:8080/api/euroJackpotRows/1](http://localhost:8080/api/euroJackpotRows/1)
 ```JSON
 {
+  "id" : 1,
   "number1" : 1,
   "number2" : 2,
   "number3" : 3,
@@ -39,6 +40,7 @@
 [http://localhost:8080/api/euroJackpotRows/2118760](http://localhost:8080/api/euroJackpotRows/2118760)
 ```JSON
 {
+  "id" : 2118760,
   "number1" : 46,
   "number2" : 47,
   "number3" : 48,
@@ -61,6 +63,7 @@
 {
   "_embedded" : {
     "euroJackpotRows" : [ {
+      "id" : 1,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -75,6 +78,7 @@
         }
       }
     }, {
+      "id" : 2,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -89,6 +93,7 @@
         }
       }
     }, {
+      "id" : 3,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -103,6 +108,7 @@
         }
       }
     }, {
+      "id" : 4,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -117,6 +123,7 @@
         }
       }
     }, {
+      "id" : 5,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -131,6 +138,7 @@
         }
       }
     }, {
+      "id" : 6,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -145,6 +153,7 @@
         }
       }
     }, {
+      "id" : 7,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -159,6 +168,7 @@
         }
       }
     }, {
+      "id" : 8,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -173,6 +183,7 @@
         }
       }
     }, {
+      "id" : 9,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -187,6 +198,7 @@
         }
       }
     }, {
+      "id" : 10,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -201,6 +213,7 @@
         }
       }
     }, {
+      "id" : 11,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -215,6 +228,7 @@
         }
       }
     }, {
+      "id" : 12,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -229,6 +243,7 @@
         }
       }
     }, {
+      "id" : 13,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -243,6 +258,7 @@
         }
       }
     }, {
+      "id" : 14,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -257,6 +273,7 @@
         }
       }
     }, {
+      "id" : 15,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -271,6 +288,7 @@
         }
       }
     }, {
+      "id" : 16,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -285,6 +303,7 @@
         }
       }
     }, {
+      "id" : 17,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -299,6 +318,7 @@
         }
       }
     }, {
+      "id" : 18,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -313,6 +333,7 @@
         }
       }
     }, {
+      "id" : 19,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
@@ -327,6 +348,7 @@
         }
       }
     }, {
+      "id" : 20,
       "number1" : 1,
       "number2" : 2,
       "number3" : 3,
