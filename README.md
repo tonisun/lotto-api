@@ -1,7 +1,7 @@
 # Lotto API
 ![Logo](src/main/resources/static/logo.png)
 
-[(http://localhost:8080/api/](http://localhost:8080/api/)
+[http://localhost:8080/api/](http://localhost:8080/api/)
 
 ```JSON
 {
