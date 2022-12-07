@@ -10,6 +10,10 @@
       "href" : "http://localhost:8080/api/euroJackpotRows{?page,size,sort}",
       "templated" : true
     },
+    "euroJackpotDraws" : {
+      "href" : "http://localhost:8080/api/euroJackpotDraws{?page,size,sort}",
+      "templated" : true
+    },
     "profile" : {
       "href" : "http://localhost:8080/api/profile"
     }
