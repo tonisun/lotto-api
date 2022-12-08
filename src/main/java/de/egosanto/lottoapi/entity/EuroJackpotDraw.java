@@ -6,7 +6,6 @@ import lombok.Data;
 import java.util.Date;
 
 @Entity
-//@IdClass(Date.class)
 @Data
 @Table(name = "ej_draw")
 public class EuroJackpotDraw {
