@@ -21,6 +21,30 @@
 }
 ```
 
+
+[http://localhost:8080/api/euroJackpotDraws/2012-03-23](http://localhost:8080/api/euroJackpotDraws/2012-03-23)
+```JSON
+{
+  "date" : "2012-03-23",
+  "number1" : 5,
+  "number2" : 46,
+  "number3" : 37,
+  "number4" : 21,
+  "number5" : 8,
+  "euroNumber1" : 8,
+  "euroNumber2" : 6,
+  "_links" : {
+    "self" : {
+      "href" : "http://localhost:8080/api/euroJackpotDraws/2012-03-23"
+    },
+    "euroJackpotDraw" : {
+      "href" : "http://localhost:8080/api/euroJackpotDraws/2012-03-23"
+    }
+  }
+}
+```
+
+
 [http://localhost:8080/api/euroJackpotDraws](http://localhost:8080/api/euroJackpotDraws)
 ```JSON
 {
@@ -392,6 +416,8 @@
   }
 }
 ```
+
+
 
 [http://localhost:8080/api/euroJackpotRows](http://localhost:8080/api/euroJackpotRows)
 ```JSON
