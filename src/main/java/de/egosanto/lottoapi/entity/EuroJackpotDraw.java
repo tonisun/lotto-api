@@ -1,16 +1,23 @@
 package de.egosanto.lottoapi.entity;
 
-import jakarta.persistence.*;
-import lombok.Data;
 
-import java.util.Date;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.sql.Date;
 
 @Entity
 @Data
+@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "ej_draw")
 public class EuroJackpotDraw {
 
     @Id
+    //@JsonFormat(shape = JsonFormat.Shape.STRING, pattern= "yyyy-MM-dd")
     @Temporal(TemporalType.DATE)
     @Column(name = "date")
     private Date date;
