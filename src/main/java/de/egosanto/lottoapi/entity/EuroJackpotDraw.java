@@ -17,7 +17,6 @@ import java.sql.Date;
 public class EuroJackpotDraw {
 
     @Id
-    //@JsonFormat(shape = JsonFormat.Shape.STRING, pattern= "yyyy-MM-dd")
     @Temporal(TemporalType.DATE)
     @Column(name = "date")
     private Date date;
